@@ -1,0 +1,23 @@
+"""dicionario  = {"tijolo":"objeto para montar muros",
+               "constituição":"lei maxima no brasil"}
+
+print(dicionario['constituição'])
+"""
+
+""""
+idade = {
+    "felps": 25,
+    "maria": 17,
+    "joão": 20,
+}
+print(idade["felps"])
+"""
+#chave e valores
+pessoas = {
+    "felps": 25,
+    "maria": 17,
+    "joão": 20,
+}
+#percorrerar a variavel pessoa e imprimira
+for pessoa in pessoas.values():
+    print(pessoa)
