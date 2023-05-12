@@ -1,0 +1,44 @@
+#AGENDA = dict{}
+
+AGENDA = {
+    #tupla -> chave e valores
+    "felps":{
+        "tel":"99999-1010",
+        "email":"contato@solyd.com.br",
+        "endereço":"av. 1"
+    },
+    "maria": {
+        "tel": "99229-2020",
+        "email":"maria@solyd.com.br",
+        "endereço":"av. 2"
+    }
+}
+#Metodo para monstrar agenda
+'''
+def mostrar_contatos():
+    for contato in AGENDA:
+        print("Nome:",contato)
+        print("Tel:",AGENDA[contato]['tel'])
+        print("Email:",AGENDA[contato]['email'])
+        print("Endereço:",AGENDA[contato]['endereço'])
+        print("-------------------------------")
+'''
+
+def mostrar_contatos():
+    for contatos in AGENDA:
+        print('Nome:', contatos)
+        print('Tel:',AGENDA[contatos]['tel'])
+        print('Email:',AGENDA[contatos]['email'])
+        print('Endereço:',AGENDA[contatos]['endereço'])
+        print('-----------------------------')
+
+#mostrar_contatos()
+
+def buscar_contato(contatos):
+    print('Nome:',contatos)
+    print('Tel:',AGENDA[contatos]['tel'])
+    print('Email:',AGENDA[contatos]['email'])
+    print('Endereço',AGENDA[contatos]['endereço'])
+
+buscar_contato('maria')
+
