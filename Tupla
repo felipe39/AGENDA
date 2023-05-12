@@ -1,0 +1,6 @@
+#Tupla é simples, leve e fácil de pesquisar
+
+cores = ("amarelo", "azul", "roxo")
+
+for cor in cores:
+    print(cor)
