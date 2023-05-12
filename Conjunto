@@ -1,0 +1,11 @@
+conjunto_cores = {"vermelho","azul","verde"}
+
+conjunto_cores.add("branco")
+conjunto_cores.add("vermelho")
+
+conjunto_cores.remove("branco")
+#Da para fazer variais coisas ou operações com os conjuntos
+""""
+for cor in conjunto_cores:
+    print(cor)
+"""
